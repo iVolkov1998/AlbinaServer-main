@@ -10,9 +10,13 @@ namespace Albina.DataAccess.Core.Models
     {
         [Key] public int Id { get; set; }
 
-        public string  { get; set; }
+        public string Name { get; set; }
 
+        public string Surname { get; set; }
 
+        public string NumberPrefix { get; set; }
+
+        public string Number { get; set; }
 
     }
 }
